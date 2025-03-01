@@ -1,0 +1,15 @@
+names:
+- Aphid
+- Army Worm
+- Mites
+- Saw Fly
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: pest-disease-detection-0jq7s-hwbps
+  url: https://app.roboflow.com/iiit-agriai/pest-disease-detection-0jq7s-hwbps/1
+  version: 1
+  workspace: iiit-agriai
+test: ../test/images
+train: ../train/images
+val: ../valid/images

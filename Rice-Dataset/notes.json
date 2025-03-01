@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Bacterial Leaf Blight"
+    },
+    {
+      "id": 1,
+      "name": "Brown Spot"
+    },
+    {
+      "id": 2,
+      "name": "Leaf Smut"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

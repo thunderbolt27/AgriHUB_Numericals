@@ -1,0 +1,6 @@
+train: C:\SK\Pest-Disease-Detection-1\train\images
+val: C:\SK\Pest-Disease-Detection-1\valid\images
+test: C:\SK\Pest-Disease-Detection-1\test\images
+path: C:\SK\Pest-Disease-Detection-1
+nc: 4
+names: ['Aphid', 'Army Worm', 'Mites', 'Saw Fly']

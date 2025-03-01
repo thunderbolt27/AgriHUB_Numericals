@@ -1,0 +1,13 @@
+names:
+- Septoria
+- Stripe Rust
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: wheat-disease-detection-wl5t6
+  url: https://universe.roboflow.com/iiit-agriai-5twwo/wheat-disease-detection-wl5t6/dataset/3
+  version: 3
+  workspace: iiit-agriai-5twwo
+test: ../test/images
+train: ../train/images
+val: ../valid/images

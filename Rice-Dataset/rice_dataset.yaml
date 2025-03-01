@@ -1,0 +1,6 @@
+train: rice_dataset/train/images/
+val: rice_dataset/valid/images/
+test: rice_dataset/test/images/
+
+nc:  3  
+names: ["Bacterial Leaf Blight", "Brown Spot", "Leaf Smut"]  
