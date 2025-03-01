@@ -37,10 +37,10 @@ To ensure efficient execution on Raspberry Pi, the YOLOv8 model may be optimized
 1. **Clone the Repository**  
    git clone https://github.com/thunderbolt27/AgriHUB_Numericals.git
    cd AgriHUB
-2. **Install Dependencies**
+3. **Install Dependencies**
 	pip install -r requirements.txt
-3. **Run the files**
+4. **Run the files**
 	python seq_model_runner.py
 	python dashboard.py
-4. **Access the dashboard**
+5. **Access the dashboard**
 	Access the dashboard via http://localhost:8050
