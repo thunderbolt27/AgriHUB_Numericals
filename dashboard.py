@@ -15,7 +15,7 @@ arduino_port = "COM14"
 baud_rate = 9600
 
 # Weather API Configuration
-weather_api_key = "06df7bee70374e5f9a8183543252702"
+weather_api_key = "06df7bee70374e5f9a8183543252702" #our API key, please feel free to use yours too
 city = "Chennai"  # Change city as needed
 
 # FastAPI Server (YOLO Model Inference)
