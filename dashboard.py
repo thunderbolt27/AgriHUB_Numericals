@@ -154,7 +154,7 @@ def update_yolo_results(n):
 )
 def update_image(n):
     try:
-        image_path = "C:\SK\processed.jpg"
+        image_path = "sequential\processed.jpg"
         if os.path.exists(image_path):
             encoded_image = base64.b64encode(open(image_path, 'rb').read()).decode()
             return f"data:image/jpeg;base64,{encoded_image}"
