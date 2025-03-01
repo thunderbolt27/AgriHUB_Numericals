@@ -10,7 +10,7 @@ import uvicorn
 app = FastAPI()
 
 # Load YOLO models
-model_paths = [r"C:\SK\sequential\models\rice.pt", r"C:\SK\sequential\models\sugarcane.pt", r"C:\SK\sequential\models\wheat.pt", r"C:\SK\sequential\models\pest.pt"]
+model_paths = [r"sequential\models\rice.pt", r"sequential\models\sugarcane.pt", r"sequential\models\wheat.pt", r"sequential\models\pest.pt"]
 models = [YOLO(model) for model in model_paths]
 
 last_result = {"model": None, "detections": [], "image": None}
